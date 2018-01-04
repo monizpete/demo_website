@@ -1,26 +1,3 @@
-```
-name: "Pete"
-output_dir: "."
-navbar:
-title: "My Important Site"
-left:
-    - text: "About"
-      icon: fa-database
-      href: http://example.com
-      
-right:
-    - text: "Report"
-    icon: fa-info-circle
-    href: syllabus.html
-
-output:
-    html_document:
-    theme: yeti
-        highlight: tango
-        
-```
-
-```
 navbar:
   left:
     - text: "Home"
