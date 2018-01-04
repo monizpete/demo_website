@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Page 1"
 output: html_document
 ---
 
@@ -24,7 +24,7 @@ ggplot(data=cars, aes(x=speed, y=dist, color=speed)) +
 
 
 
-```{r plotlycars, }
+```{r plotlycars,}
 ggplotly(
   ggplot(data=cars, aes(x=speed, y=dist, color=speed)) +
     geom_line() +
